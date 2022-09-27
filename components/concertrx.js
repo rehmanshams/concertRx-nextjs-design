@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export const concertrx = () => {
+export const Concertrx = () => {
   const [faq, setFaq] = useState(0);
 
   return (
@@ -38,8 +38,8 @@ export const concertrx = () => {
               Plans & Pricing
             </p>
             <p className="font-lg	tracking-tighter mt-4	 text-base font-satoshi text-[#27272A]">
-              We’re working on a suit of tools to make managing complex systems{" "}
-              <br></br>easier, for everyone. We can’t wait to hear what you
+              We&apos;re working on a suit of tools to make managing complex systems{" "}
+              <br></br>easier, for everyone. We can&apos;t wait to hear what you
               think
             </p>
           </div>
@@ -284,7 +284,7 @@ export const concertrx = () => {
               <div className={`${faq === 0 ? "block" : "hidden"}`}>
                 {" "}
                 <p className="font-satoshi text-left font-normal transition-all	 text-[#52525B] text-base w-full">
-                  Yes, you can try us for free for 30 days. If you want, we’ll
+                  Yes, you can try us for free for 30 days. If you want, we&apos;ll
                   provide you with a free, personalized 30-<br></br>minute
                   onboarding call to get you up and running as soon as possible.
                 </p>
@@ -340,7 +340,7 @@ export const concertrx = () => {
               <div className={`${faq === 2 ? "block" : "hidden"}`}>
                 {" "}
                 <p className="font-satoshi text-left font-normal transition-all	 text-[#52525B] text-base w-full">
-                  Yes, you can try us for free for 30 days. If you want, we’ll
+                  Yes, you can try us for free for 30 days. If you want, we&apos;ll
                   provide you with a free, personalized 30-<br></br>minute
                   onboarding call to get you up and running as soon as possible.
                 </p>
@@ -396,7 +396,7 @@ export const concertrx = () => {
               <div className={`${faq === 3 ? "block" : "hidden"}`}>
                 {" "}
                 <p className="font-satoshi text-left font-normal transition-all	 text-[#52525B] text-base w-full">
-                  Yes, you can try us for free for 30 days. If you want, we’ll
+                  Yes, you can try us for free for 30 days. If you want, we&apos;ll
                   provide you with a free, personalized 30-<br></br>minute
                   onboarding call to get you up and running as soon as possible.
                 </p>
@@ -452,7 +452,7 @@ export const concertrx = () => {
               <div className={`${faq === 4 ? "block" : "hidden"}`}>
                 {" "}
                 <p className="font-satoshi text-left font-normal transition-all	 text-[#52525B] text-base w-full">
-                  Yes, you can try us for free for 30 days. If you want, we’ll
+                  Yes, you can try us for free for 30 days. If you want, we&apos;ll
                   provide you with a free, personalized 30-<br></br>minute
                   onboarding call to get you up and running as soon as possible.
                 </p>
@@ -508,7 +508,7 @@ export const concertrx = () => {
               <div className={`${faq === 5 ? "block" : "hidden"}`}>
                 {" "}
                 <p className="font-satoshi text-left font-normal  transition-all	 text-[#52525B] text-base w-full">
-                  Yes, you can try us for free for 30 days. If you want, we’ll
+                  Yes, you can try us for free for 30 days. If you want, we&apos;ll
                   provide you with a free, personalized 30-<br></br>minute
                   onboarding call to get you up and running as soon as possible.
                 </p>
@@ -563,7 +563,7 @@ export const concertrx = () => {
               <div className={`${faq === 6 ? "block" : "hidden"}`}>
                 {" "}
                 <p className="font-satoshi text-left transition-all leading-6	 font-normal text-[#52525B] text-base w-full">
-                  Yes, you can try us for free for 30 days. If you want, we’ll
+                  Yes, you can try us for free for 30 days. If you want, we&apos;ll
                   provide you with a free, personalized 30-<br></br>minute
                   onboarding call to get you up and running as soon as possible.
                 </p>
@@ -738,34 +738,30 @@ export const concertrx = () => {
               </p>
             </div>
           </div>
-          <div className="w-full  justify-center  box h-[353px] ">
-            <div className=" w-full align-center ">
-              <div className=" ml-[110px]">
-                <p className="font-bold	text-[40px] text-[#27272A] pt-[100px] font-satoshi ">
-                  Want to receive product updates?
-                </p>
-              </div>
-              <div className="leading-8">
-                <p className="font-lg	 text-[18px] text-[#52525B] mt-[1px]  ml-[110px] font-satoshi ">
-                  To opt-in to our text message update service.
-                </p>
-                <p className="font-lg	 text-[18px] text-[#52525B] mt-[-30px] ml-[110px] font-satoshi ">
-                  <br></br>Text YES to{" "}
-                  <a className="underline" href="tel:+61482097007">
-                    +61482 097 007
-                  </a>{" "}
-                  OR Scan the QR code.
-                </p>
-                <br></br>
-                <p className="font-lg	 text-[18px] text-[#52525B] mt-[-30px]  ml-[110px] font-satoshi ">
-                  You can send STOP to unsubscribe anytime.
-                </p>
-              </div>
+          <div className="w-full flex justify-center box h-[353px] ">
+            <div className="ml-[-520px]">
+              <p className="font-bold	text-[40px] text-[#27272A] pt-[80px] font-satoshi ">
+                Want to receive product updates?
+              </p>
+              <p className="font-lg	leading-8 text-[18px] text-[#52525B] mt-[1px]   font-satoshi ">
+                To opt-in to our text message update service.
+              </p>
+              <p className="font-lg	leading-6 text-[18px] text-[#52525B] mt-[-30px] font-satoshi ">
+                <br></br>Text YES to{" "}
+                <a className="leading-8 underline" href="tel:+61482097007">
+                  +61482 097 007
+                </a>{" "}
+                OR Scan the QR code.
+              </p>
+              <br></br>
+              <p className="font-lg	leading-8 text-[18px] text-[#52525B] mt-[-30px] font-satoshi ">
+                You can send STOP to unsubscribe anytime.
+              </p>
             </div>
-            <div className="mr-[110px]">
-              <div className="  ml-[1100px] mt-[-140px] cursor-pointer flex justify-center align-center text-center">
-                <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Frame%20813064.svg"></img>
-              </div>
+          </div>
+          <div className="mr-[110px]">
+            <div className="  ml-[1100px] mt-[-255px] cursor-pointer flex justify-center align-center text-center">
+              <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Frame%20813064.svg"></img>
             </div>
           </div>
         </div>
@@ -774,4 +770,4 @@ export const concertrx = () => {
   );
 };
 
-export default concertrx;
+export default Concertrx;
