@@ -219,7 +219,7 @@ export const Concertrx = () => {
                 2.&nbsp;Transactions are processed in Australian Dollars (AUD).
               </p>
               <p className="float-left mt-[2px] text-sm 	font-normal ml-[20px] font-satoshi">
-                3.&nbsp; We use Stripe to process your payment. It's the same
+                3.&nbsp; We use Stripe to process your payment. It&apos;s the same
                 payment provider used by products such as Twitter, Pinterest,
                 and Lyft. We do not handle your credit card information
                 directly.
