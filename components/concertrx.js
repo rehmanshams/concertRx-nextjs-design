@@ -38,8 +38,8 @@ export const Concertrx = () => {
               Plans & Pricing
             </p>
             <p className="font-lg	tracking-tighter mt-4	 text-base font-satoshi text-[#27272A]">
-              We&apos;re working on a suit of tools to make managing complex systems{" "}
-              <br></br>easier, for everyone. We can&apos;t wait to hear what you
+              We&#39;re working on a suit of tools to make managing complex systems{" "}
+              <br></br>easier, for everyone. We can&#39;t wait to hear what you
               think
             </p>
           </div>
@@ -284,7 +284,7 @@ export const Concertrx = () => {
               <div className={`${faq === 0 ? "block" : "hidden"}`}>
                 {" "}
                 <p className="font-satoshi text-left font-normal transition-all	 text-[#52525B] text-base w-full">
-                  Yes, you can try us for free for 30 days. If you want, we&apos;ll
+                  Yes, you can try us for free for 30 days. If you want, we&#39;ll
                   provide you with a free, personalized 30-<br></br>minute
                   onboarding call to get you up and running as soon as possible.
                 </p>
@@ -340,7 +340,7 @@ export const Concertrx = () => {
               <div className={`${faq === 2 ? "block" : "hidden"}`}>
                 {" "}
                 <p className="font-satoshi text-left font-normal transition-all	 text-[#52525B] text-base w-full">
-                  Yes, you can try us for free for 30 days. If you want, we&apos;ll
+                  Yes, you can try us for free for 30 days. If you want, we&#39;ll
                   provide you with a free, personalized 30-<br></br>minute
                   onboarding call to get you up and running as soon as possible.
                 </p>
@@ -396,7 +396,7 @@ export const Concertrx = () => {
               <div className={`${faq === 3 ? "block" : "hidden"}`}>
                 {" "}
                 <p className="font-satoshi text-left font-normal transition-all	 text-[#52525B] text-base w-full">
-                  Yes, you can try us for free for 30 days. If you want, we&apos;ll
+                  Yes, you can try us for free for 30 days. If you want, we&#39;ll
                   provide you with a free, personalized 30-<br></br>minute
                   onboarding call to get you up and running as soon as possible.
                 </p>
@@ -452,7 +452,7 @@ export const Concertrx = () => {
               <div className={`${faq === 4 ? "block" : "hidden"}`}>
                 {" "}
                 <p className="font-satoshi text-left font-normal transition-all	 text-[#52525B] text-base w-full">
-                  Yes, you can try us for free for 30 days. If you want, we&apos;ll
+                  Yes, you can try us for free for 30 days. If you want, we&#39;ll
                   provide you with a free, personalized 30-<br></br>minute
                   onboarding call to get you up and running as soon as possible.
                 </p>
@@ -508,7 +508,7 @@ export const Concertrx = () => {
               <div className={`${faq === 5 ? "block" : "hidden"}`}>
                 {" "}
                 <p className="font-satoshi text-left font-normal  transition-all	 text-[#52525B] text-base w-full">
-                  Yes, you can try us for free for 30 days. If you want, we&apos;ll
+                  Yes, you can try us for free for 30 days. If you want, we&#39;ll
                   provide you with a free, personalized 30-<br></br>minute
                   onboarding call to get you up and running as soon as possible.
                 </p>
@@ -563,7 +563,7 @@ export const Concertrx = () => {
               <div className={`${faq === 6 ? "block" : "hidden"}`}>
                 {" "}
                 <p className="font-satoshi text-left transition-all leading-6	 font-normal text-[#52525B] text-base w-full">
-                  Yes, you can try us for free for 30 days. If you want, we&apos;ll
+                  Yes, you can try us for free for 30 days. If you want, we&#39;ll
                   provide you with a free, personalized 30-<br></br>minute
                   onboarding call to get you up and running as soon as possible.
                 </p>
