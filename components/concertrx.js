@@ -154,7 +154,7 @@ export const Concertrx = () => {
                 </p>
               </div>
               <div>
-                <button className="w-[313px] h-[40px] text-[#71717A] font-satoshi mt-[130px] font-medium rounded-full border-2 bg-white">
+                <button className="w-[313px] h-[40px] cursor-not-allowed text-[#71717A] font-satoshi mt-[130px] font-medium rounded-full border-2 bg-white">
                   {" "}
                   Coming Soon
                 </button>
@@ -199,7 +199,7 @@ export const Concertrx = () => {
                 </p>
               </div>
               <div>
-                <button className="w-[313px] h-[40px] text-[#71717A] font-satoshi mt-[130px] font-medium rounded-full border-2 bg-white">
+                <button className="w-[313px] h-[40px] cursor-not-allowed text-[#71717A] font-satoshi mt-[130px] font-medium rounded-full border-2 bg-white">
                   {" "}
                   Coming Soon
                 </button>
@@ -212,13 +212,13 @@ export const Concertrx = () => {
                 Note:
               </p>
               <br></br>
-              <p className="float-left font-normal  text-sm mt-[30px] font-satoshi ml-[-40px] ">
+              <p className="float-left font-normal text-zinc-600 text-sm mt-[30px] font-satoshi ml-[-40px] ">
                 1.&nbsp;Pricing is subject to change{" "}
               </p>
-              <p className="float-left mt-[52px] text-sm font-normal  ml-[-190px] font-satoshi">
+              <p className="float-left mt-[52px] text-sm font-normal text-zinc-600 ml-[-190px] font-satoshi">
                 2.&nbsp;Transactions are processed in Australian Dollars (AUD).
               </p>
-              <p className="float-left mt-[2px] text-sm 	font-normal ml-[20px] font-satoshi">
+              <p className="float-left mt-[2px] text-sm text-zinc-600	font-normal ml-[20px] font-satoshi">
                 3.&nbsp; We use Stripe to process your payment. It&apos;s the same
                 payment provider used by products such as Twitter, Pinterest,
                 and Lyft. We do not handle your credit card information
@@ -245,45 +245,46 @@ export const Concertrx = () => {
                   Is there a free trial available?
                 </p>
                 <button>
-                  {faq == 1 ? (
-                    <svg
-                      width={22}
-                      height={22}
-                      viewBox="0 0 22 22"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M11 7V15M7 11H15M21 11C21 16.5228 16.5228 21 11 21C5.47715 21 1 16.5228 1 11C1 5.47715 5.47715 1 11 1C16.5228 1 21 5.47715 21 11Z"
-                        stroke="#48B649"
-                        strokeWidth={2}
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
+                  {faq == 0 ? (
+                         <svg
+                         width={22}
+                         height={22}
+                         viewBox="0 0 22 22"
+                         fill="none"
+                         xmlns="http://www.w3.org/2000/svg"
+                       >
+                         <path
+                           d="M7 11H15M21 11C21 16.5228 16.5228 21 11 21C5.47715 21 1 16.5228 1 11C1 5.47715 5.47715 1 11 1C16.5228 1 21 5.47715 21 11Z"
+                           stroke="#48B649"
+                           strokeWidth={2}
+                           strokeLinecap="round"
+                           strokeLinejoin="round"
+                         />
+                       </svg>
+                   
                   ) : (
                     <svg
-                      width={22}
-                      height={22}
-                      viewBox="0 0 22 22"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M7 11H15M21 11C21 16.5228 16.5228 21 11 21C5.47715 21 1 16.5228 1 11C1 5.47715 5.47715 1 11 1C16.5228 1 21 5.47715 21 11Z"
-                        stroke="#48B649"
-                        strokeWidth={2}
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
+                    width={22}
+                    height={22}
+                    viewBox="0 0 22 22"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M11 7V15M7 11H15M21 11C21 16.5228 16.5228 21 11 21C5.47715 21 1 16.5228 1 11C1 5.47715 5.47715 1 11 1C16.5228 1 21 5.47715 21 11Z"
+                      stroke="#48B649"
+                      strokeWidth={2}
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
                   )}
                 </button>
               </div>
 
               <div className={`${faq === 0 ? "block" : "hidden"}`}>
                 {" "}
-                <p className="font-satoshi text-left font-normal transition-all	 text-[#52525B] text-base w-full">
+                <p className="font-satoshi text-left font-thin transition-all mt-2 text-[#52525B] text-base w-full">
                   Yes, you can try us for free for 30 days. If you want, we&#39;ll
                   provide you with a free, personalized 30-<br></br>minute
                   onboarding call to get you up and running as soon as possible.
@@ -339,7 +340,7 @@ export const Concertrx = () => {
 
               <div className={`${faq === 2 ? "block" : "hidden"}`}>
                 {" "}
-                <p className="font-satoshi text-left font-normal transition-all	 text-[#52525B] text-base w-full">
+                <p className="font-satoshi text-left font-thin transition-all mt-2 text-[#52525B] text-base w-full">
                   Yes, you can try us for free for 30 days. If you want, we&#39;ll
                   provide you with a free, personalized 30-<br></br>minute
                   onboarding call to get you up and running as soon as possible.
@@ -395,7 +396,7 @@ export const Concertrx = () => {
 
               <div className={`${faq === 3 ? "block" : "hidden"}`}>
                 {" "}
-                <p className="font-satoshi text-left font-normal transition-all	 text-[#52525B] text-base w-full">
+                <p className="font-satoshi text-left font-thin transition-all mt-2 text-[#52525B] text-base w-full">
                   Yes, you can try us for free for 30 days. If you want, we&#39;ll
                   provide you with a free, personalized 30-<br></br>minute
                   onboarding call to get you up and running as soon as possible.
@@ -451,7 +452,7 @@ export const Concertrx = () => {
 
               <div className={`${faq === 4 ? "block" : "hidden"}`}>
                 {" "}
-                <p className="font-satoshi text-left font-normal transition-all	 text-[#52525B] text-base w-full">
+                <p className="font-satoshi text-left font-thin transition-all mt-2 text-[#52525B] text-base w-full">
                   Yes, you can try us for free for 30 days. If you want, we&#39;ll
                   provide you with a free, personalized 30-<br></br>minute
                   onboarding call to get you up and running as soon as possible.
@@ -507,7 +508,7 @@ export const Concertrx = () => {
 
               <div className={`${faq === 5 ? "block" : "hidden"}`}>
                 {" "}
-                <p className="font-satoshi text-left font-normal  transition-all	 text-[#52525B] text-base w-full">
+                <p className="font-satoshi text-left font-thin transition-all mt-2 text-[#52525B] text-base w-full">
                   Yes, you can try us for free for 30 days. If you want, we&#39;ll
                   provide you with a free, personalized 30-<br></br>minute
                   onboarding call to get you up and running as soon as possible.
@@ -562,7 +563,7 @@ export const Concertrx = () => {
 
               <div className={`${faq === 6 ? "block" : "hidden"}`}>
                 {" "}
-                <p className="font-satoshi text-left transition-all leading-6	 font-normal text-[#52525B] text-base w-full">
+                <p className="font-satoshi text-left font-thin transition-all mt-2 text-[#52525B] text-base w-full">
                   Yes, you can try us for free for 30 days. If you want, we&#39;ll
                   provide you with a free, personalized 30-<br></br>minute
                   onboarding call to get you up and running as soon as possible.
@@ -662,7 +663,7 @@ export const Concertrx = () => {
               </div>
               <div className=" justify-center">
                 <nav className="float-right ml-[158px] mt-[64px] text-[20px] font-bold font-satoshi  gap-[120px]">
-                  <ul className=" text-[20px] font-bold mr-[38px] font-satoshi ">
+                  <ul className=" text-[20px] font-bold pr-[94px] font-satoshi ">
                     Contact us
                   </ul>
                   <a href="https://www.google.com/maps/dir/33.7310091,73.0745198/447+High+St,+Penrith+NSW+2750,+Australia/@-0.0085372,72.0334226,3z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x6b1285f4a4b46f49:0x84e7ae168ef6d42c!2m2!1d150.6972232!2d-33.7532502">
@@ -672,10 +673,10 @@ export const Concertrx = () => {
                     ></img>
                   </a>
 
-                  <ul className="font-medium	text-[15px] ml-[30px] mt-[-30px] font-satoshi text-[#3F3F46]">
+                  <ul className="font-medium	text-[15px] ml-7 mt-[-30px] font-satoshi text-[#3F3F46]">
                     447 High Street, Penrith,<br></br>
                   </ul>
-                  <ul className="font-medium	text-[15px]  font-satoshi text-[#3F3F46]">
+                  <ul className="font-medium	text-[15px] ml-0 font-satoshi text-[#3F3F46]">
                     NSW 2750 Australia.
                   </ul>
                   <a href="https://www.microsoft.com/en-ww/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook">
